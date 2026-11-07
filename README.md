@@ -715,10 +715,16 @@ When an examiner needs to hash exactly the visible characters without adding a n
 
 Hash verification is important when establishing whether evidence has remained unchanged during acquisition, examination and reporting.
 
-**Screenshot Evidence:**
+<img width="1118" height="795" alt="image" src="https://github.com/user-attachments/assets/011222dc-87f3-4778-8b37-3267612d6981" />
 
 - [ ] Screenshot 10 – File creation and hexadecimal comparison.
+
+<img width="1053" height="796" alt="image" src="https://github.com/user-attachments/assets/79d3fa1a-eb38-47e5-95e1-182bd9248d97" />
+
 - [ ] Screenshot 11 – MD5 hash comparison.
+
+<img width="1086" height="812" alt="image" src="https://github.com/user-attachments/assets/ad593695-5ecb-452a-9b01-2223a9ff6262" />
+
 - [ ] Screenshot 12 – SHA-256 hash comparison.
 
 ---
