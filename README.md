@@ -455,6 +455,8 @@ The interpretation depends on the context and structure of the evidence.
 
 - [ ] Screenshot 05 – Hexadecimal-to-ASCII conversion.
 
+<img width="1022" height="955" alt="Screenshot 2026-11-07 evidence 6 lab 1A" src="https://github.com/user-attachments/assets/b4f4ed56-c734-4e6a-8a6f-afa7039232aa" />
+
 - [ ] Screenshot 06 – Python conversion results.
 
 ---
