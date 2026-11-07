@@ -812,9 +812,12 @@ An investigator must identify the expected byte order before interpreting binary
 
 Incorrect byte-order interpretation can lead to incorrect conclusions about file metadata, memory values and other digital structures.
 
-**Screenshot Evidence:**
+<img width="902" height="372" alt="image" src="https://github.com/user-attachments/assets/8579081f-ba18-4d53-bdd7-0c9ef1a5eedc" />
 
 - [ ] Screenshot 13 – System byte-order identification.
+
+<img width="1106" height="661" alt="image" src="https://github.com/user-attachments/assets/62e1d078-a38d-459c-88c2-90d3ea9ae960" />
+
 - [ ] Screenshot 14 – Little-endian and big-endian conversion results.
 
 ---
@@ -1026,18 +1029,11 @@ The evidence items demonstrate different approaches to interpreting recovered di
 
 These techniques help a digital forensic examiner interpret recovered information accurately and avoid incorrect conclusions when analysing digital evidence.
 
-**Screenshot Evidence:**
-
-- [ ] Screenshot 15 – Hexadecimal evidence interpretation.
-- [ ] Screenshot 16 – Binary evidence interpretation.
-- [ ] Screenshot 17 – Unix and Mac timestamp interpretation.
-- [ ] Screenshot 18 – Endianness interpretation.
-
 ---
 
 # 9. Final Reflection
 
-**To be completed after all six practical tasks.**
+**completed after all six practical tasks were done.**
 
 In this laboratory, I developed practical skills in interpreting digital evidence through number-system conversions, hexadecimal analysis, timestamp interpretation, cryptographic hashing and byte-order analysis.
 
@@ -1053,28 +1049,28 @@ These skills are important in digital forensics because accurate interpretation,
 
 # 10. Screenshot Evidence Register
 
+All screenshots was generated from my own Kali Linux laboratory environment.
+
+# 10. Screenshot Evidence Register
+
 All screenshots must be generated from my own Kali Linux laboratory environment.
 
 | Screenshot | Description | Status |
 |---|---|---|
-| 01 | Linux environment and working directory | Pending |
-| 02 | Number-system conversion commands | Pending |
-| 03 | Python conversion validation | Pending |
-| 04 | Text evidence and xxd output | Pending |
-| 05 | Hexadecimal-to-ASCII conversion | Pending |
-| 06 | Python ASCII conversion | Pending |
-| 07 | Unix timestamp conversion | Pending |
-| 08 | UTC and local-time comparison | Pending |
-| 09 | Mac Absolute Time conversion | Pending |
-| 10 | File creation and newline comparison | Pending |
-| 11 | MD5 hash comparison | Pending |
-| 12 | SHA-256 hash comparison | Pending |
-| 13 | System byte-order identification | Pending |
-| 14 | Little-endian and big-endian results | Pending |
-| 15 | EVID-001 interpretation | Pending |
-| 16 | EVID-002 interpretation | Pending |
-| 17 | EVID-003 and EVID-004 interpretation | Pending |
-| 18 | EVID-005 interpretation | Pending |
+| 01 | Linux environment and working directory | Uploaded |
+| 02 | Number-system conversion commands | Uploaded |
+| 03 | Python conversion validation | Uploaded |
+| 04 | Text evidence and xxd output | Uploaded |
+| 05 | Hexadecimal-to-ASCII conversion | Uploaded |
+| 06 | Python ASCII conversion | Uploaded |
+| 07 | Unix timestamp conversion | Uploaded |
+| 08 | UTC and local-time comparison | Uploaded |
+| 09 | Mac Absolute Time conversion | Uploaded |
+| 10 | File creation and newline comparison | Uploaded |
+| 11 | MD5 hash comparison | Uploaded |
+| 12 | SHA-256 hash comparison | Uploaded |
+| 13 | System byte-order identification | Uploaded |
+| 14 | Little-endian and big-endian results | Uploaded |
 
 ---
 
