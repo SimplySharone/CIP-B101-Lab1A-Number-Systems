@@ -455,10 +455,6 @@ The interpretation depends on the context and structure of the evidence.
 
 - [ ] Screenshot 05 – Hexadecimal-to-ASCII conversion.
 
-
-|
-
-
 - [ ] Screenshot 06 – Python conversion results.
 
 ---
@@ -596,6 +592,8 @@ Failure to account for timezone differences can cause events to appear to have o
 - [ ] Screenshot 08 – UTC and local-time comparison.
 
 <img width="1053" height="961" alt="image" src="https://github.com/user-attachments/assets/79704e8b-3d19-43ce-82c5-f1cac34f71e7" />
+<img width="1090" height="956" alt="image" src="https://github.com/user-attachments/assets/07e1bfd3-01bd-41ee-b49f-caf2fa475054" />
+
 
 - [ ] Screenshot 09 – Mac Absolute Time conversion.
 
