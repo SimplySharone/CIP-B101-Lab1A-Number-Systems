@@ -587,10 +587,16 @@ Forensic investigators should record whether timestamps are presented in UTC or 
 
 Failure to account for timezone differences can cause events to appear to have occurred earlier or later than they actually did.
 
-**Screenshot Evidence:**
+<img width="1046" height="960" alt="image" src="https://github.com/user-attachments/assets/3ea3cef2-9a68-4de3-b266-e3743364b20d" />
 
 - [ ] Screenshot 07 – Unix timestamp conversion.
+
+<img width="1053" height="959" alt="image" src="https://github.com/user-attachments/assets/c0207b4c-3c3e-451f-a096-325fb82272a4" />
+
 - [ ] Screenshot 08 – UTC and local-time comparison.
+
+<img width="1053" height="961" alt="image" src="https://github.com/user-attachments/assets/79704e8b-3d19-43ce-82c5-f1cac34f71e7" />
+
 - [ ] Screenshot 09 – Mac Absolute Time conversion.
 
 ---
