@@ -967,22 +967,64 @@ _To be completed after practical verification._
 
 | Evidence Item | Recovered Value | Interpretation | Forensic Relevance |
 |---|---|---|---|
-| EVID-001 | 48656c6c6f204943444641 | Pending | Text/content interpretation |
-| EVID-002 | 01001000 01101001 | Pending | Binary-to-text interpretation |
-| EVID-003 | 1675008832 | Pending | Timeline analysis |
-| EVID-004 | 725846400 | Pending | Mac forensic timestamp analysis |
-| EVID-005 | 78563412 | Pending | Memory and byte-order interpretation |
+| EVID-001 | `48656c6c6f204943444641` | Decodes from hexadecimal into the ASCII text **Hello ICDFA**. | Text and content interpretation |
+| EVID-002 | `01001000 01101001` | Decodes from binary into the ASCII text **Hi**. | Binary-to-text interpretation |
+| EVID-003 | `1675008832` | Unix timestamp representing **29 January 2023, 16:13:52 UTC**. | Digital forensic timeline analysis |
+| EVID-004 | `725846400` | Mac Absolute Time representing **2 January 2024, 00:00:00 UTC**. | Mac forensic timestamp analysis |
+| EVID-005 | `78563412` | Interpreted as **305419896** in little-endian format and **2018915346** in big-endian format. | Memory, binary data and byte-order interpretation |
 
 ## 8.8 Required Case Narrative
 
-The final case narrative will address the following:
+The recovered evidence values were examined using hexadecimal, binary, timestamp conversion and byte-order interpretation techniques.
 
-1. What each evidence item represents after decoding.
-2. The readable UTC timestamps for EVID-003 and EVID-004.
-3. The methods and commands used to interpret the recovered values.
-4. The difference between the two byte-order interpretations in EVID-005.
-5. Which evidence items are useful for timeline analysis.
-6. Which evidence items are useful for interpreting text and digital content.
+**EVID-001 – Hexadecimal to ASCII**
+
+The hexadecimal value `48656c6c6f204943444641` was converted into readable ASCII text using Python. The decoded result was **Hello ICDFA**. This demonstrates how hexadecimal values can represent readable text when interpreted using the appropriate character encoding.
+
+**EVID-002 – Binary to ASCII**
+
+The binary value `01001000 01101001` was converted into decimal character codes and then interpreted using ASCII. The result was **Hi**. This demonstrates how binary data can represent individual text characters.
+
+**EVID-003 – Unix Timestamp**
+
+The value `1675008832` was interpreted as a Unix timestamp. Using the Linux `date` command and Python's `datetime` module, it was converted into:
+
+**29 January 2023, 16:13:52 UTC.**
+
+This evidence is useful for establishing when an event occurred and placing it within a digital forensic timeline.
+
+**EVID-004 – Mac Absolute Time**
+
+The value `725846400` was interpreted as Mac Absolute Time, which counts seconds from 1 January 2001 at 00:00:00 UTC.
+
+The value was converted into Unix time by adding the epoch difference of `978307200` seconds:
+
+`725846400 + 978307200 = 1704153600`
+
+The resulting UTC timestamp is:
+
+**2 January 2024, 00:00:00 UTC.**
+
+This conversion demonstrates the importance of identifying the correct timestamp format before interpreting digital evidence.
+
+**EVID-005 – Endianness Interpretation**
+
+The hexadecimal bytes `78563412` were interpreted using two different byte-order formats:
+
+- **Little-endian:** `305419896`
+- **Big-endian:** `2018915346`
+
+The values differ because little-endian interpretation places the least significant byte first, while big-endian interpretation places the most significant byte first. This is important when examining memory dumps, binary files and disk metadata because an incorrect byte-order assumption can lead to an incorrect interpretation of evidence.
+
+### Overall Forensic Relevance
+
+The evidence items demonstrate different approaches to interpreting recovered digital data:
+
+- **Timeline analysis:** EVID-003 and EVID-004 provide timestamp information that can help establish the timing of digital events.
+- **Text and content interpretation:** EVID-001 and EVID-002 demonstrate how hexadecimal and binary values can be decoded into readable text.
+- **Memory and binary interpretation:** EVID-005 demonstrates why byte order must be considered when interpreting raw hexadecimal data.
+
+These techniques help a digital forensic examiner interpret recovered information accurately and avoid incorrect conclusions when analysing digital evidence.
 
 **Screenshot Evidence:**
 
