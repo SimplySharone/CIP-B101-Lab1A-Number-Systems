@@ -452,9 +452,11 @@ The interpretation depends on the context and structure of the evidence.
 
 <img width="1057" height="955" alt="image" src="https://github.com/user-attachments/assets/7ed3c7ea-63f2-4acf-a848-a01de92ed8ad" />
 
+
 - [ ] Screenshot 05 – Hexadecimal-to-ASCII conversion.
 
 
+|
 
 
 - [ ] Screenshot 06 – Python conversion results.
